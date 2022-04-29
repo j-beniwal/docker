@@ -3,7 +3,7 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 # update
 sudo apt-get update
 # install
-sudo apt-get install \
+sudo apt-get install -y \
     ca-certificates \
     curl \
     gnupg \
